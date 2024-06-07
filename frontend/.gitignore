@@ -1,0 +1,60 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# Configuration files
+*.env
+
+# Logs
+logs/
+*.log
+
+# Directories for dependencies
+vendor/
+.godeps/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Database
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+*.pg_dump
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Output of the go test tool
+*.test
+*.out
+
+# Go binaries
+bin/

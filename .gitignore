@@ -1,0 +1,100 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Production build
+build/
+dist/
+
+# Static files
+public/static/
+
+# TypeScript compiled files
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+goose-db.log
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Tests
+/coverage/
+/jest/
+/.cypress/
+/reports/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+*.swp
+*.lock
+.history/
+.cache/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Go binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# Directories for dependencies
+vendor/
+.godeps/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Database
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+*.pg_dump
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Output of the go test tool
+*.test
+*.out
